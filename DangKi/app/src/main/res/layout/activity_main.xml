@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1069dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-160dp"
+        android:gravity="center"
+        android:background="@drawable/img"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/white"
+            android:gravity="left"
+            android:text="Trần Văn Quang Phú-21115053120340"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="Create new Account"
+            android:textSize="40dp"
+            android:textColor="#088"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFE0"
+            android:layout_marginBottom="25dp"
+            android:ems="15"
+            android:hint="Username"
+            android:textColorHint="#008000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="25dp"
+            android:background="#FFFFE0"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#008000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="50dp"
+            android:background="#FFFFE0"
+            android:hint="Confirm"
+            android:inputType="textPassword"
+            android:textColorHint="#008000"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="Sign Up"
+            android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="74dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="74dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/img_3" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>
